@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# 编译产物
+*.o
+*.obj
+*.dSYM/
+*.dylib
+a.out
+
+# 可执行文件（编译测试生成的无扩展名文件）
+spsc_test
+mpmc_test
+mpmc_test_asan
+naive_test_asan
+lock_free_stack_test
+lock_free_stack_asan
+cq_test
+lfq_test
+test
+
+# VS 工程文件
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
