@@ -2,7 +2,7 @@
 #include <iostream>
 #include <thread>
 #include <vector>
-#include "lock_free_stack.h"
+#include "../stack/lock_free_stack.h"
 
 int main() {
     const int N = 100000;   // 数据量

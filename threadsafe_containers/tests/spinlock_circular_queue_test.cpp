@@ -2,7 +2,7 @@
 #include <iostream>
 #include <thread>
 #include <vector>
-#include "lockfree_circular_queue.h"
+#include "../ring_queue/spinlock_circular_queue.h"
 
 int main() {
     // ===== 1. 单线程基本功能 =====

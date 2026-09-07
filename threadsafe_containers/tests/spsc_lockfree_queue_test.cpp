@@ -1,7 +1,7 @@
 #include <iostream>
 #include <thread>
 #include <vector>
-#include "spsc_lockfree_queue.h"
+#include "../ring_queue/spsc_lockfree_queue.h"
 
 int main() {
     // ===== 1. 单线程功能测试 =====

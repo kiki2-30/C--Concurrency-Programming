@@ -1,5 +1,5 @@
 #include <iostream>
-#include "circular_queue.h"
+#include "../ring_queue/circular_queue.h"
 
 int main() {
     CircularQueue<int, 4> q;   // 容量 4：最多存 4 个元素
